@@ -7,4 +7,22 @@ Description:
 
 Webpage URL: ec2-52-11-10-109.us-west-2.compute.amazonaws.com:5000
 
+Directory structure of my project is as below:
+/prime.py
+/usr/share/tomcat7/webapps/assign1/prime.jsp
+/usr/share/tomcat7/webapps/assign1/prime2.jsp
+
+The web application uses Tomcat7 to execute. Below are the steps to setup and start tomcat7 on Amazon AMI:
+1. sudo yum install tomcat7 tomcat7-webapps tomcat7-admin-webapps tomcat-docs (install tomcat7)
+2. sudo -i
+3. cd /usr/share/tomcat7
+4. cd conf
+5. sudo chmod 777 /usr/share/tomcat7/conf/tomcat-users.xml (Gives permission to edit xml file)
+6. Change username and password in tomcat-users.xml file to use Manager-GUI
+7. sudo chmod 777 /usr/share/tomcat7/webapps (Gives permission to create folders in webapps)
+8. Create a folder for your project in webapps and save your project files there.
+9. sudo service tomcat7 start (To start tomcat server)
+
+
+
 
