@@ -1,6 +1,10 @@
-Web Application - Prime Number Validator
+                                              
+                                              Web Application - Prime Number Validator
+
 Description:
 - This web application is designed to check whether a number is prime or not.
 - The user needs to enter the number in the text box and click "Submit". Result is displayed on the webpage - whether the number entered is prime or not.
 
 Webpage URL: ec2-52-11-10-109.us-west-2.compute.amazonaws.com:5000
+
+
